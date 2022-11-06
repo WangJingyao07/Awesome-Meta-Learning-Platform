@@ -1,0 +1,1343 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.2.11">
+    
+    
+      
+        <title>Computer Vision - Awesome-META+</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c5ef100.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#computer-vision" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Awesome-META+" class="md-header__button md-logo" aria-label="Awesome-META+" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Awesome-META+
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Computer Vision
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Awesome-META+" class="md-nav__button md-logo" aria-label="Awesome-META+" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Awesome-META+
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1 Tutorials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1 Tutorials" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1 Tutorials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1%20Tutorials/getting_started/" class="md-nav__link">
+        Tutorials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          2 Documentation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2 Documentation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          2 Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/1%20maml_tutorial/" class="md-nav__link">
+        MAML
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/10%20ES-maml_tutorial/" class="md-nav__link">
+        ES-MAML
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/11%20CNAP_tutorial/" class="md-nav__link">
+        CNAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/12%20SNAIL_tutorial/" class="md-nav__link">
+        SNAIL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/2%20MetaOptNet_tutorial/" class="md-nav__link">
+        MetaOptNet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/3%20reptile_tutorial/" class="md-nav__link">
+        Reptile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/4%20proto_tutorial/" class="md-nav__link">
+        Prototypical Network
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/5%20relation_tutorial/" class="md-nav__link">
+        Relation Network
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/6%20anil_tutorial/" class="md-nav__link">
+        ANIL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/7%20metaSGD_tutorial/" class="md-nav__link">
+        Meta-SGD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/8%20%20MetaDropout_tutorial/" class="md-nav__link">
+        Meta Dropout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Documentation/9%20MT-net_tutorial/" class="md-nav__link">
+        MT-net
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          3 Examples
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3 Examples" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          3 Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Computer Vision
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Computer Vision
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#results-our-awesome-meta" class="md-nav__link">
+    Results (Our Awesome-META+)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-usage" class="md-nav__link">
+    Example (Usage)
+  </a>
+  
+    <nav class="md-nav" aria-label="Example (Usage)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#maml" class="md-nav__link">
+    MAML
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototypical-networks" class="md-nav__link">
+    Prototypical Networks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reptile" class="md-nav__link">
+    Reptile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anil" class="md-nav__link">
+    ANIL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-situation" class="md-nav__link">
+    General situation
+  </a>
+  
+    <nav class="md-nav" aria-label="General situation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-example" class="md-nav__link">
+    For example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2%20rl/" class="md-nav__link">
+        Reinforcement Learning
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          4 Papers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4 Papers" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          4 Papers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Papers/1%20Papers%20and%20Code/" class="md-nav__link">
+        Papers & CODE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Papers/2%20Books/" class="md-nav__link">
+        Books
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Papers/3%20Libraries/" class="md-nav__link">
+        Libraries
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Papers/4%20Blogs/" class="md-nav__link">
+        Blogs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Papers/5%20Lecture%20Videos/" class="md-nav__link">
+        Lecture Videos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Papers/6%20Workshops/" class="md-nav__link">
+        Workshops
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          5 Datasets
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5 Datasets" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          5 Datasets
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5%20Datasets/Datasets/" class="md-nav__link">
+        Datasets
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          6 Community
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6 Community" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          6 Community
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6%20Community/Community/" class="md-nav__link">
+        Community
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          7 Changelog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7 Changelog" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          7 Changelog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7%20Changelog/Changelog/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#results-our-awesome-meta" class="md-nav__link">
+    Results (Our Awesome-META+)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-usage" class="md-nav__link">
+    Example (Usage)
+  </a>
+  
+    <nav class="md-nav" aria-label="Example (Usage)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#maml" class="md-nav__link">
+    MAML
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototypical-networks" class="md-nav__link">
+    Prototypical Networks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reptile" class="md-nav__link">
+    Reptile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anil" class="md-nav__link">
+    ANIL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-situation" class="md-nav__link">
+    General situation
+  </a>
+  
+    <nav class="md-nav" aria-label="General situation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-example" class="md-nav__link">
+    For example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="computer-vision">Computer Vision</h1>
+<p>This directory contains meta-learning examples and reproductions for common computer vision benchmarks.</p>
+<p><img alt="GWO3" src="../GWO3.gif" /></p>
+<p><img alt="58604alphabytesolutions" src="../58604alphabytesolutions.gif" /></p>
+<p><img alt="0_QTx3WCyNjBPB8-05" src="../0_QTx3WCyNjBPB8-05.gif" /></p>
+<h2 id="results-our-awesome-meta">Results (Our Awesome-META+)</h2>
+<p><strong>MAML</strong></p>
+<p><img alt="1667716268056" src="../1667716268056.png" /></p>
+<p><strong>MetaOptNet</strong></p>
+<p><img alt="1667716416997" src="../1667716416997.png" /></p>
+<p><strong>Reptile</strong></p>
+<p><img alt="1667716441403" src="../1667716441403.png" /></p>
+<p><strong>Prototypical network</strong></p>
+<p><img alt="1667716461456" src="D:\Awesome-Meta-Learning-Platform\docs\3 Examples\1667716461456.png" /></p>
+<p><img alt="1667716475289" src="D:\Awesome-Meta-Learning-Platform\docs\3 Examples\1667716475289.png" /></p>
+<p><strong>Relation Network</strong></p>
+<p><img alt="1667716500715" src="../1667716500715.png" /></p>
+<p><strong>ANIL</strong></p>
+<p><img alt="1667716532056" src="../1667716532056.png" /></p>
+<h2 id="example-usage">Example (Usage)</h2>
+<h3 id="maml">MAML</h3>
+<p>The following files reproduce <a href="https://arxiv.org/pdf/1703.03400.pdf">MAML</a> on the Omniglot and <em>mini</em>-ImageNet datasets.
+The FOMAML results can be obtained by setting <code>first_order=True</code> in the <code>MAML</code> wrapper.
+On Omniglot, the CNN results can be obtained by swapping <code>OmniglotFC</code> with <code>OmniglotCNN</code>.</p>
+<ul>
+<li><code>maml_omniglot.py</code> - MAML on the Omniglot dataset with a fully-connected network.</li>
+<li><code>maml_miniimagenet.py</code> - MAML on the <em>mini</em>-ImageNet dataset with the standard convolutional network.</li>
+<li><code>maml_cifar.py</code> - MAML on the Cifar-FS dataset with the standard convolutional network.</li>
+</ul>
+<p>Note that the original MAML paper trains with 5 fast adaptation step, but tests with 10 steps.
+This implementation only provides the training code.</p>
+<p><strong>Usage</strong></p>
+<p>Manually edit the respective files and run:</p>
+<pre><code class="shell">python examples/maml_omniglot.py
+</code></pre>
+
+<p>or</p>
+<pre><code class="shell">python examples/maml_miniimagenet.py
+</code></pre>
+
+<p>or</p>
+<pre><code class="shell">python examples/maml_cifar.py
+</code></pre>
+
+<h3 id="prototypical-networks">Prototypical Networks</h3>
+<p>The file <code>protonet_miniimagenet.py</code> reproduces <a href="https://arxiv.org/pdf/1703.05175.pdf">Prototypical Networks</a> on the <em>mini</em>-ImageNet dataset.</p>
+<p>This implementation provides training and testing code.</p>
+<p><strong>Usage</strong></p>
+<p>For 1 shot 5 ways:</p>
+<pre><code class="shell">python examples/protonet_miniimagenet.py
+</code></pre>
+
+<p>For 5 shot 5 ways:</p>
+<pre><code class="shell">python examples/protonet_miniimagenet.py --shot 5 --train-way 5
+</code></pre>
+
+<p>For 1 shot 20 ways:</p>
+<pre><code class="shell">python examples/protonet_miniimagenet.py --shot 1 --train-way 20
+</code></pre>
+
+<p>For 5 shot 20 ways:</p>
+<pre><code class="shell">python examples/vision/protonet_miniimagenet.py --shot 5 --train-way 20
+</code></pre>
+
+<h3 id="reptile">Reptile</h3>
+<p><strong>Usage</strong></p>
+<p>Manually edit the above file and run:</p>
+<pre><code class="shell">python examples/vision/reptile_miniimagenet.py
+</code></pre>
+
+<h3 id="anil">ANIL</h3>
+<p>The file <code>anil_fc100.py</code> and <code>anil_cifar.py</code>  implements <a href="https://arxiv.org/pdf/1909.09157.pdf">ANIL</a> on the FC100 and Cifar-FS dataset.</p>
+<p><strong>Usage</strong></p>
+<p>Manually edit the above file and run:</p>
+<pre><code class="shell">python examples/vision/anil_fc100.py
+</code></pre>
+
+<p>or</p>
+<pre><code class="shell">python examples/vision/anil_cifar.py
+</code></pre>
+
+<h2 id="general-situation">General situation</h2>
+<p>The pretrained weights can be downloaded using <code>./models/</code>.</p>
+<h3 id="for-example">For example</h3>
+<p><strong>LinearBlock</strong></p>
+<pre><code class="python">class LinearBlock(torch.nn.Module):
+
+    def __init__(self, input_size, output_size):
+        super(LinearBlock, self).__init__()
+        self.relu = torch.nn.ReLU()
+        self.normalize = torch.nn.BatchNorm1d(
+            output_size,
+            affine=True,
+            momentum=0.999,
+            eps=1e-3,
+            track_running_stats=False,
+        )
+        self.linear = torch.nn.Linear(input_size, output_size)
+        fc_init_(self.linear)
+
+    def forward(self, x):
+        x = self.linear(x)
+        x = self.normalize(x)
+        x = self.relu(x)
+        return x
+
+
+class ConvBlock(torch.nn.Module):
+
+    def __init__(self,
+                 in_channels,
+                 out_channels,
+                 kernel_size,
+                 max_pool=True,
+                 max_pool_factor=1.0):
+        super(ConvBlock, self).__init__()
+        stride = (int(2 * max_pool_factor), int(2 * max_pool_factor))
+        if max_pool:
+            self.max_pool = torch.nn.MaxPool2d(
+                kernel_size=stride,
+                stride=stride,
+                ceil_mode=False,
+            )
+            stride = (1, 1)
+        else:
+            self.max_pool = lambda x: x
+        self.normalize = torch.nn.BatchNorm2d(
+            out_channels,
+            affine=True,
+            # eps=1e-3,
+            # momentum=0.999,
+            # track_running_stats=False,
+        )
+        torch.nn.init.uniform_(self.normalize.weight)
+        self.relu = torch.nn.ReLU()
+
+        self.conv = torch.nn.Conv2d(
+            in_channels,
+            out_channels,
+            kernel_size,
+            stride=stride,
+            padding=1,
+            bias=True,
+        )
+        maml_init_(self.conv)
+
+    def forward(self, x):
+        x = self.conv(x)
+        x = self.normalize(x)
+        x = self.relu(x)
+        x = self.max_pool(x)
+        return x
+</code></pre>
+
+<p><strong>CNN4</strong></p>
+<pre><code class="python">class CNN4(torch.nn.Module):
+
+    def __init__(
+        self,
+        output_size,
+        hidden_size=64,
+        layers=4,
+        channels=3,
+        max_pool=True,
+        embedding_size=None,
+    ):
+        super(CNN4, self).__init__()
+        if embedding_size is None:
+            embedding_size = 25 * hidden_size
+        self.features = CNN4Backbone(
+            hidden_size=hidden_size,
+            channels=channels,
+            max_pool=max_pool,
+            layers=layers,
+            max_pool_factor=4 // layers,
+        )
+        self.classifier = torch.nn.Linear(
+            embedding_size,
+            output_size,
+            bias=True,
+        )
+        maml_init_(self.classifier)
+        self.hidden_size = hidden_size
+
+    def forward(self, x):
+        x = self.features(x)
+        x = self.classifier(x)
+        return x
+</code></pre>
+
+<p><strong>ResNet12</strong></p>
+<pre><code class="python">class ResNet12(torch.nn.Module):
+
+    def __init__(
+        self,
+        avg_pool=True,  # Set to False for 16000-dim embeddings
+        wider=True,  # True mimics MetaOptNet, False mimics TADAM
+        embedding_dropout=0.0,  # dropout for embedding
+        dropblock_dropout=0.1,  # dropout for residual layers
+        dropblock_size=5,
+        channels=3,
+    ):
+        super(ResNet12Backbone, self).__init__()
+        self.inplanes = channels
+        block = BasicBlock
+        if wider:
+            num_filters = [64, 160, 320, 640]
+        else:
+            num_filters = [64, 128, 256, 512]
+
+        self.layer1 = self._make_layer(
+            block,
+            num_filters[0],
+            stride=2,
+            dropblock_dropout=dropblock_dropout,
+        )
+        self.layer2 = self._make_layer(
+            block,
+            num_filters[1],
+            stride=2,
+            dropblock_dropout=dropblock_dropout,
+        )
+        self.layer3 = self._make_layer(
+            block,
+            num_filters[2],
+            stride=2,
+            dropblock_dropout=dropblock_dropout,
+            drop_block=True,
+            block_size=dropblock_size,
+        )
+        self.layer4 = self._make_layer(
+            block,
+            num_filters[3],
+            stride=2,
+            dropblock_dropout=dropblock_dropout,
+            drop_block=True,
+            block_size=dropblock_size,
+        )
+            self.avgpool = nn.AvgPool2d(5, stride=1)
+
+        self.embedding_dropout = embedding_dropout
+        self.keep_avg_pool = avg_pool
+        self.dropout = nn.Dropout(p=self.embedding_dropout, inplace=False)
+        self.dropblock_dropout = dropblock_dropout
+
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(
+                    m.weight,
+                    mode='fan_out',
+                    nonlinearity='leaky_relu',
+                )
+            elif isinstance(m, nn.BatchNorm2d):
+                nn.init.constant_(m.weight, 1)
+                nn.init.constant_(m.bias, 0)
+
+    def _make_layer(
+        self,
+        block,
+        planes,
+        stride=1,
+        dropblock_dropout=0.0,
+        drop_block=False,
+        block_size=1,
+    ):
+        downsample = None
+        if stride != 1 or self.inplanes != planes * block.expansion:
+            downsample = nn.Sequential(
+                nn.Conv2d(self.inplanes, planes * block.expansion,
+                          kernel_size=1, stride=1, bias=False),
+                nn.BatchNorm2d(planes * block.expansion),
+            )
+        layers = []
+        layers.append(block(
+            self.inplanes,
+            planes,
+            stride,
+            downsample,
+            dropblock_dropout,
+            drop_block,
+            block_size)
+        )
+        self.inplanes = planes * block.expansion
+        return nn.Sequential(*layers)
+
+    def forward(self, x):
+        x = self.layer1(x)
+        x = self.layer2(x)
+        x = self.layer3(x)
+        x = self.layer4(x)
+        x = self.avgpool(x)
+        x = self.flatten(x)
+        x = self.dropout(x)
+        return x
+</code></pre>
+
+<p>for more details, please see: https://github.com/WangJingyao07/MetaLearning-Lab</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../2%20Documentation/9%20MT-net_tutorial/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MT-net" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              MT-net
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../2%20rl/" class="md-footer__link md-footer__link--next" aria-label="Next: Reinforcement Learning" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Reinforcement Learning
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.748e2769.min.js"></script>
+      
+    
+  </body>
+</html>
