@@ -131,9 +131,18 @@ Our library is open source for research purposes, and we want to improve it! So 
    - Maracver's [Relation-Networks](https://github.com/msracver/Relation-Networks-for-Object-Detection)
    - Kwonjoon Lee's [MetaOptNet](https://github.com/kjunelee/MetaOptNet)
 
-
+<html>
+<body>
+   	<h2>Website visit statistics</h2>
+   	<hr/>
+   	<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=v_xn_Dhrnu0fDyl460FCo-ANZ3JwLvVDZ_9pBKJtrwg&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+   
+       <div id="copyright" align="right">
+           <p>Copyright&copy; 2020~2022 Wei Zhang.</p>
+       </div>
+</body>     
+</html>
 
 ## License
 
 Awesome META+ is freely available for free non-commercial use, and may be redistributed under these conditions.
-
