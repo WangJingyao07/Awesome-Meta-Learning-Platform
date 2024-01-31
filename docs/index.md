@@ -143,6 +143,19 @@ Our library is open source for research purposes, and we want to improve it! So 
 </body>     
 </html>
 
+
+## Cite
+```
+@misc{wang2023awesomemeta,
+      title={Awesome-META+: Meta-Learning Research and Learning Platform}, 
+      author={Jingyao Wang and Chuyuan Zhang and Ye Ding and Yuxuan Yang},
+      year={2023},
+      eprint={2304.12921},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
 ## License
 
 Awesome META+ is freely available for free non-commercial use, and may be redistributed under these conditions.
